@@ -68,12 +68,13 @@
       <passphrase>optional; leave empty if not used.</passphrase>
     </server>
 	
-		<server>
+    -->
+				<server>
 			<id>MuleRepository</id>
 			<username>apisero.nexus</username>
-			<password>pWhdnHcG</password>
+			<password>${nexus}</password>
 		</server>
-    -->
+		
 	</servers>
 	<!-- mirrors
    | This is a list of mirrors to be used in downloading artifacts from remote repositories.
