@@ -72,7 +72,7 @@
 				<server>
 			<id>MuleRepository</id>
 			<username>apisero.nexus</username>
-			<password>${nexus}</password>
+			<password>pWhdnHcG</password>
 		</server>
 		
 	</servers>
