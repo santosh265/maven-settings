@@ -72,7 +72,7 @@
 				<server>
 			<id>MuleRepository</id>
 			<username>apisero.nexus</username>
-			<password>pWhdnHcG</password>
+			<password>${nexus}</password>
 		</server>
 		
 	</servers>
@@ -206,7 +206,7 @@
 				</repository>
 			</repositories>
 		</profile>
-		<profile>
+		
 		<profile>
 			<id>standard-repositories</id>
 			<activation>
